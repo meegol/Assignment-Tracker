@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #f3d2c1;
+  --secondary-color: #fef6e4;
+  --text-color: #172c66;
+  --accent-color: #f582ae;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btn {
+  @apply px-4 py-2 rounded-lg transition-all duration-200 font-bold;
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.btn:hover {
+  filter: brightness(110%);
+  transform: translateY(-1px);
+}
+
+.input {
+  @apply p-2 rounded-lg border-2 w-full;
+  background-color: white;
+  border-color: var(--primary-color);
+}
