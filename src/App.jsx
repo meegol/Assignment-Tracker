@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="min-h-screen p-8">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-4xl mb-8 text-center">✨ Cozy Assignment Planner ✨</h1>
+        <h1 className="text-4xl mb-8 text-center">✨ Migo and Lili's Dues ✨</h1>
         
         <form onSubmit={handleSubmit} className="mb-8 p-6 rounded-xl shadow-lg" style={{ backgroundColor: 'var(--primary-color)' }}>
           <div className="mb-4">
